@@ -96,15 +96,47 @@ export default function Landingpage() {
               </p>
               
               {/* Powered By */}
-              <div className="mt-auto pt-4 flex flex-col items-center">
-                <p className="font-poppins text-sm text-gray-400 mb-6">Powered By</p>
-                <div className="flex items-center justify-center gap-8 flex-wrap">
-                  <img src={images.daemonLogo} alt="Daemon Protocol" className="h-6 w-auto max-w-[80px] object-contain" />
-                  <img src={images.img} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
-                  <img src={images.img1} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
-                  <img src={images.img2} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
-                  <img src={images.img3} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
-                  <img src={images.img4} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
+              <div className="mt-auto pt-4">
+                <p className="font-poppins text-sm text-gray-400 mb-6 text-center">Powered By</p>
+                <div className="overflow-hidden">
+                  <div className="flex items-center gap-8 animate-marquee whitespace-nowrap">
+                    {/* Set 1 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 2 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 3 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 4 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -348,9 +380,8 @@ export default function Landingpage() {
           </div>
         </div>
 
-        {/* Partners Section */}
-        <div id="partners" className="relative w-full pb-24 px-8">
-          {/* Vertical Lines */}
+        {/* Partners Section - DISABLED */}
+        {/* <div id="partners" className="relative w-full pb-24 px-8">
           <div className="absolute left-0 top-0 pointer-events-none w-full h-full">
             <div className="max-w-7xl mx-auto h-full relative px-8 lg:px-16">
               <div className="absolute bg-gradient-to-b from-[rgba(255,255,255,0.2)] via-[rgba(255,255,255,0.1)] h-full left-[33.33%] to-transparent bottom-0 w-[1px]" />
@@ -368,22 +399,18 @@ export default function Landingpage() {
 
             <div className="overflow-hidden">
               <div className="flex items-center gap-16 animate-marquee whitespace-nowrap">
-                {/* Set 1 */}
                 <img src={images.imgLogoWhite2} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgLogoHorizontalWhite1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgQ87026E2EPng} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
-                {/* Set 2 */}
                 <img src={images.imgLogoWhite2} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgLogoHorizontalWhite1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgQ87026E2EPng} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
-                {/* Set 3 */}
                 <img src={images.imgLogoWhite2} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgLogoHorizontalWhite1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgQ87026E2EPng} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
-                {/* Set 4 */}
                 <img src={images.imgLogoWhite2} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgLogoHorizontalWhite1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
                 <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Partner" className="h-10 w-auto object-contain opacity-70 flex-shrink-0" />
@@ -391,7 +418,7 @@ export default function Landingpage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* FAQ Section */}
         <div className="relative w-full py-24 px-8">
