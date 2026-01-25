@@ -99,7 +99,7 @@ export default function Landingpage() {
               <div className="mt-auto pt-4 flex flex-col items-center">
                 <p className="font-poppins text-sm text-gray-400 mb-6">Powered By</p>
                 <div className="flex items-center justify-center gap-8 flex-wrap">
-                  <img src="/src/assets/logo/daemonprotocol/daemonprotocol_logo_White_transparent.png" alt="Daemon Protocol" className="h-6 w-auto max-w-[80px] object-contain" />
+                  <img src={images.daemonLogo} alt="Daemon Protocol" className="h-6 w-auto max-w-[80px] object-contain" />
                   <img src={images.img} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
                   <img src={images.img1} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
                   <img src={images.img2} alt="Partner" className="h-6 w-auto max-w-[80px] object-contain" />
@@ -220,11 +220,11 @@ export default function Landingpage() {
                 </div>
                 
                 {/* Splash Background (invisible for spacing) */}
-                <img src="/src/assets/images/splash-icon.png" alt="" className="w-96 h-96 object-contain opacity-0" />
+                <img src={images.splashIcon} alt="" className="w-96 h-96 object-contain opacity-0" />
                 
                 {/* Icon on top */}
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
-                  <img src="/src/assets/icon.png" alt="Obscura Icon" className="w-48 h-48 object-contain" />
+                  <img src={images.iconPng} alt="Obscura Icon" className="w-48 h-48 object-contain" />
                 </div>
               </div>
 
@@ -302,7 +302,7 @@ export default function Landingpage() {
               <ChromaGrid
                 items={[
                   {
-                    image: '/src/assets/teams/0xbt.png',
+                    image: images.team0xbt,
                     title: '0xbt',
                     subtitle: 'Founder & CEO',
                     handle: '@XBT_kw',
@@ -311,7 +311,7 @@ export default function Landingpage() {
                     url: 'https://x.com/XBT_kw'
                   },
                   {
-                    image: '/src/assets/teams/zaki.png',
+                    image: images.teamZaki,
                     title: 'Zaki',
                     subtitle: 'UI/UX Dev',
                     handle: '@zakidev',
@@ -320,7 +320,7 @@ export default function Landingpage() {
                     url: 'https://www.linkedin.com/in/muhammad-zaki-691108232/'
                   },
                   {
-                    image: '/src/assets/teams/my-pict.jpg',
+                    image: images.teamFikri,
                     title: 'Fikri.AI',
                     subtitle: 'AI Engineer',
                     handle: '@fikriaf',
@@ -329,7 +329,7 @@ export default function Landingpage() {
                     url: 'https://www.linkedin.com/in/fikri-armia-fahmi-b373b3288/'
                   },
                   {
-                    image: '/src/assets/teams/zidan.png',
+                    image: images.teamZidan,
                     title: 'Zidan',
                     subtitle: 'Smart Contract',
                     handle: '@zidandev',
@@ -623,7 +623,7 @@ export default function Landingpage() {
                 <p className="font-poppins text-sm text-gray-400 flex items-center gap-2">
                   Built by 
                   <a href="https://daemonprotocol.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-[#00adb5] hover:text-[#00969d] transition-colors font-medium">
-                    <img src="/src/assets/logo/daemonprotocol/daemonprotocol_logo_White_transparent.png" alt="Daemon Protocol" className="h-5 w-auto object-contain" />
+                    <img src={images.daemonLogo} alt="Daemon Protocol" className="h-5 w-auto object-contain" />
                     Daemon BlockInt Technologies
                   </a>
                 </p>
