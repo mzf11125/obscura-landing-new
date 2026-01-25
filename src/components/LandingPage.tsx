@@ -101,41 +101,41 @@ export default function Landingpage() {
                 <div className="overflow-hidden">
                   <div className="flex items-center gap-8 animate-marquee whitespace-nowrap">
                     {/* Set 1 */}
-                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
-                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
-                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
                     </div>
-                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     {/* Set 2 */}
-                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
-                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
-                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
                     </div>
-                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     {/* Set 3 */}
-                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
-                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
-                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
                     </div>
-                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     {/* Set 4 */}
-                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
-                    <img src={images.img1} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
-                      <img src={images.img3} alt="Range" className="h-6 w-auto object-contain" />
-                      <span className="font-poppins font-semibold text-sm text-white">RANGE</span>
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
                     </div>
-                    <img src={images.img4} alt="Partner" className="h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                   </div>
                 </div>
               </div>
