@@ -81,7 +81,7 @@ export default function Landingpage() {
                 <a href="#partners" className="font-poppins font-medium text-base text-white cursor-pointer hover:text-[#00adb5] transition-colors">Partners</a>
                 <a href="https://docs.obscura-app.com" target="_blank" rel="noopener noreferrer" className="font-poppins font-medium text-base text-white cursor-pointer hover:text-[#00adb5] transition-colors">Docs</a>
               </div>
-              <a href="https://dashboard.obscura-app.com" target="_blank" rel="noopener noreferrer" className="bg-[#00adb5] hover:bg-[#00969d] transition-colors flex items-center justify-center px-4 py-2 rounded-full cursor-pointer">
+              <a href="https://dashboard.obscura-app.com" className="bg-[#00adb5] hover:bg-[#00969d] transition-colors flex items-center justify-center px-4 py-2 rounded-full cursor-pointer">
                 <p className="font-manrope font-bold text-sm text-white">Trade Now</p>
               </a>
             </nav>
@@ -526,7 +526,7 @@ export default function Landingpage() {
             <p className="font-aeonik font-normal text-base md:text-lg text-white/90 mb-10 max-w-xl mx-auto leading-relaxed" style={{ letterSpacing: '0.05em' }}>
               Join the future of privacy-preserving finance. Your transactions, your business.
             </p>
-            <a href="https://dashboard.obscura-app.com" target="_blank" rel="noopener noreferrer" className="bg-[#2a2f35] hover:bg-[#3a3f47] transition-colors px-8 py-3 rounded-lg inline-block">
+            <a href="https://dashboard.obscura-app.com" className="bg-[#2a2f35] hover:bg-[#3a3f47] transition-colors px-8 py-3 rounded-lg inline-block">
               <span className="font-aeonik font-medium text-base text-white" style={{ letterSpacing: '0.08em' }}>Stealth Now</span>
             </a>
           </div>
