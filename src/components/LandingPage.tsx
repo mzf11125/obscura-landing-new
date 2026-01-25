@@ -99,7 +99,7 @@ export default function Landingpage() {
               <div className="mt-auto pt-4">
                 <p className="font-poppins text-sm text-gray-400 mb-6 text-center">Powered By</p>
                 <div className="overflow-hidden">
-                  <div className="flex items-center gap-8 animate-marquee whitespace-nowrap">
+                  <div className="flex items-center gap-4 md:gap-8 animate-marquee whitespace-nowrap">
                     {/* Set 1 */}
                     <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                     <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
