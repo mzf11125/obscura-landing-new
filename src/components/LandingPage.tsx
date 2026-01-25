@@ -136,6 +136,42 @@ export default function Landingpage() {
                       <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
                     </div>
                     <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 5 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 6 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 7 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    {/* Set 8 */}
+                    <img src={images.imgDaemonprotocolLogoWhiteTransparentText1} alt="Daemon Protocol" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <img src={images.img1} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
+                    <div className="flex items-center gap-2 opacity-60 flex-shrink-0">
+                      <img src={images.img3} alt="Range" className="h-4 md:h-6 w-auto object-contain" />
+                      <span className="font-poppins font-semibold text-xs md:text-sm text-white">RANGE</span>
+                    </div>
+                    <img src={images.img4} alt="Partner" className="h-4 md:h-6 w-auto object-contain opacity-60 flex-shrink-0" />
                   </div>
                 </div>
               </div>
