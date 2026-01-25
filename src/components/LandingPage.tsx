@@ -88,11 +88,11 @@ export default function Landingpage() {
 
             {/* Hero Text */}
             <div className="flex flex-col justify-center h-[calc(100%-100px)] pt-20 md:pt-0">
-              <h1 className="font-aeonik font-black text-7xl md:text-9xl lg:text-[10rem] text-white tracking-wider opacity-80 mb-8" style={{ fontWeight: 900, lineHeight: '0.85' }}>
+              <h1 className="font-aeonik font-black text-7xl md:text-9xl lg:text-[10rem] text-white tracking-wider opacity-80 mb-8 leading-[1.1] md:leading-[0.85]" style={{ fontWeight: 900 }}>
                 Off<br/>The<br/>Radar
               </h1>
               <p className="font-aeonik text-lg md:text-xl lg:text-2xl text-white leading-relaxed max-w-2xl mb-16">
-                Trade off the radar. Keep your positions, amounts, and moves completely hidden.
+                Trade off the radar. Keep your positions, identity, and moves completely hidden.
               </p>
               
               {/* Powered By */}
@@ -279,7 +279,7 @@ export default function Landingpage() {
         </div>
 
         {/* Teams Section */}
-        <div id="teams" className="relative w-full py-24 px-8">
+        <div id="teams" className="relative w-full pt-24 pb-0 px-8">
           {/* Vertical Lines */}
           <div className="absolute left-0 top-0 pointer-events-none w-full h-full">
             <div className="max-w-7xl mx-auto h-full relative px-8 lg:px-16">
@@ -349,7 +349,7 @@ export default function Landingpage() {
         </div>
 
         {/* Partners Section */}
-        <div id="partners" className="relative w-full py-24 px-8">
+        <div id="partners" className="relative w-full pb-24 px-8">
           {/* Vertical Lines */}
           <div className="absolute left-0 top-0 pointer-events-none w-full h-full">
             <div className="max-w-7xl mx-auto h-full relative px-8 lg:px-16">
